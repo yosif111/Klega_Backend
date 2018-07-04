@@ -8,5 +8,7 @@ class ImageResource(ModelResource):
         resource_name = 'image'
         authorization = Authorization()
         fields = ['userUUID', 'base64'] #Limiting Fields, will only return this
+    
+    
 
 

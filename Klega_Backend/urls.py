@@ -22,6 +22,6 @@ image_resource = ImageResource()
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^api/', include(image_resource.urls)),
+    url(r'^api/', include('api.urls')),
 
 ]
